@@ -1,0 +1,88 @@
+.cabess h1{
+	color:#1DB954;
+	font-size:100px;
+	text-align:center;
+	margin-bottom: 15px;
+	margin-top: 0px
+}
+html{
+	background: #191414;
+}
+.cabess{
+	background-image: url(back.jpg);
+	padding-top:35px;
+	background-size:cover; 
+	padding-bottom: 50px
+	background-width:1341px;
+}
+.cabess img{
+	margin-left:540px;
+	border-radius: 90%;
+	margin-bottom: 15px;
+
+}
+.cabess h3{
+	color:#1DB954;
+	text-align: center;
+	font-size:30px;
+	margin-top:10px
+}
+.albuns{
+	padding-left:140px;
+	margin-top:120px;
+	
+}
+h4{
+	position: relative;
+	top:-18px;
+	left:40px;
+}
+.texto{
+	color:#1DB954;
+	position: relative;
+	left: 179px;
+	top:-203px;
+	margin-bottom:13px;
+	width: 1100px;
+	font-size: 27px;
+	font-family: 'Caladea', serif;
+	border-color: white;
+	border-style: solid;
+	border-width: 90%;
+	height: 200px;
+	width:865px;
+	background-color: black
+
+}
+.time{
+	border-width: 90%;
+	border-style: solid;
+	border-color:white;
+	position: relative;
+	height: 150px;
+	width:179px;
+	height:200px; 
+	margin-top:-39px;
+	
+}
+.remixes{
+	border-width: 90%;
+	border-style: solid;
+	border-color:white;
+	position: relative;
+	margin-top:39px;
+	width:179px;
+	height:200px; 
+}
+.inevitable{
+	border-width: 90%;
+	border-style: solid;
+	border-color:white;
+	position: relative;
+	margin-top:39px;
+	width:179px;
+	height:200px; 
+}
+
+
+
