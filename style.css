@@ -11,6 +11,7 @@ html{
 
 .cabess{
 	background-image: url(back.jpg);
+	background-width:auto;
 	padding-top:35px;
 	background-size:cover; 
 	padding-bottom: 50px
