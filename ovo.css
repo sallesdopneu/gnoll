@@ -1,0 +1,31 @@
+header{
+	text-align: center;
+	font-size:50px;
+}
+
+.like{
+	width:400px;
+	padding-right:25%;
+	padding-left: 100px;
+}
+.dislike{
+	width:400px;
+}
+.gostei{
+	color:red;
+	position: relative;
+	left:277px;
+	cursor: progress;
+	width: 80px
+}
+.nah{
+	color:red;
+	position: relative;
+	left:1030px;
+	top:-63px;
+	cursor: help;
+	width:50;
+}
+html{
+	font-family: 'Flavors', cursive;
+}
