@@ -1,16 +1,15 @@
 .foto img {
 
-	width:410px;
-	height:410px; 
-	border-width: 90%;
-	border-style: solid;
-	border-color:white;
+	width:35%;
+	height:70%; 
+
 
 }
 html{
-	background-image:url(niverso.jpg);
+	background-image:url(bcktime.jpg);
 	background-width:auto;
-	background-size:cover
+	background-size:cover;
+	font-family:verdana, sans-serif;
 }
 span{
 	padding-left:200px;
@@ -21,12 +20,29 @@ span{
 	width:400px;
 	position:relative;
 	right:-630px;
-	top:-340px;
-
+	top:-350px;
+	padding-left: 5%
 }
 h4{
 	color:white;
 	text-align: center;
-	font-size:20px;
-	text-align:justify
+	font-size:18px;
+	color:snow;
+	text-shadow: 2px 2px 2px black
+}
+img{
+	box-shadow: -1px -1px 9px white;
+}
+iframe{
+	position:relative;
+	top:130px;
+	left:-415px;
+}
+h1{
+	color:snow;
+	position:relative;
+	top:-390px;
+	left:-390px;
+	font-size:300%;
+	text-shadow: 2px 2px 2px black
 }
