@@ -85,21 +85,13 @@ h4{
 	width:180px;
 	height:170px; 
 }
-.disquin{
-	position:relative;
-	top:10px;
-	left:140px;
-}
 body h2{
 	color:snow;
 	font-family: 'Merriweather', serif;
 	font-size:44px;
-	padding-left:155px;
+	padding-left:140px;
 	margin-top:200px;
 	text-shadow:2px 2px 5px black;
-	margin-left: 100px;
-	position:relative;
-	bottom:-125px;
 }
 body{
 	height:100%;
