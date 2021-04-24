@@ -1,5 +1,5 @@
 .cabess h1{
-	color:#1DB954;
+	color:white;
 	font-size:100px;
 	text-align:center;
 	margin-bottom: 15px;
@@ -7,6 +7,7 @@
 }
 html{
 	background: #191414;
+	height: 100%
 }
 
 .cabess{
@@ -18,8 +19,9 @@ html{
 	background-width:100%;
 	text-align: center;
 	font-family: 'Merriweather', serif;
-	text-shadow:3px 5px 5px #191414;
-	height: 550px
+	text-shadow:1px 3px 5px black;
+	height: 550px;
+	object-position:fixed;
 }
 .cabess img{
 	border-radius: 90%;
@@ -29,7 +31,7 @@ html{
 
 }
 .cabess h3{
-	color:#1DB954;
+	color:white;
 	text-align: center;
 	font-size:32px;
 	margin-top:10px
@@ -55,7 +57,7 @@ h4{
 	font-family:Arial,helvetica,sans-serif;
 }
 .texto{
-	color:#1DB954;
+	color:snow;
 	position: relative;
 	left: 181px;
 	top:-173px;
@@ -72,10 +74,7 @@ h4{
 
 }
 .time{
-	border-width: 90%;
-	border-style: solid;
-	border-color:white;
-	position: relative;
+	
 	height: 150px;
 	width:180px;
 	height:170px; 
@@ -83,30 +82,67 @@ h4{
 	
 }
 .remixes{
-	border-width: 90%;
-	border-style: solid;
-	border-color:white;
-	position: relative;
-	margin-top:39px;
 	width:180px;
 	height:170px; 
 }
-.inevitable{
-	border-width: 90%;
-	border-style: solid;
-	border-color:white;
-	position: relative;
-	margin-top:39px;
-	width:180px;
-	height:170px; 
-}
+
 body h2{
-	color:#1DB954;
+	color:snow;
 	font-family: 'Merriweather', serif;
 	font-size:44px;
 	padding-left:140px;
 	margin-top:200px;
 	text-shadow:2px 2px 5px black;
-
 }
+body{
+	height:100%;
+}
+.container {
+
+  	position: relative;
+  	width: 50%;
+  	border-width: 90%;
+  	border-style: solid;
+	border-color:white;
+	margin-top:39px;
+	width:180px;
+	height:170px; 
+	top:3px;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: 170px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color:none;
+  color: snow;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
 
