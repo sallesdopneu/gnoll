@@ -3,7 +3,8 @@
 	font-size:100px;
 	text-align:center;
 	margin-bottom: 15px;
-	margin-top: 0px
+	margin-top: 0px;
+	font-family: 'Quicksand', sans-serif;
 }
 html{
 	background: #191414;
@@ -12,16 +13,11 @@ html{
 
 .cabess{
 	background-image: url(back.jpg);
-	background-width:auto;
-	padding-top:35px;
 	background-size:cover; 
-	padding-bottom: 50px
-	background-width:100%;
 	text-align: center;
-	font-family: 'Merriweather', serif;
 	text-shadow:1px 3px 5px black;
 	height: 550px;
-	object-position:fixed;
+	border-style:0px 0px 2px 0px solid purple;
 }
 .cabess img{
 	border-radius: 90%;
@@ -36,6 +32,10 @@ html{
 	font-size:32px;
 	margin-top:10px
 	width:10%;
+	font-family: 'Quicksand', sans-serif;
+}
+.biografia h4 h5{
+	text-align:center;
 }
 .ovo h6{
 	color:black; 
@@ -47,30 +47,32 @@ html{
 .albuns{
 	padding-left:140px;
 	margin-top:90px;
+	background-image:url(GNOLL CORTADO.png);
 	
 }
 h4{
 	position: relative;
-	top:-30px;
+	top:-15px;
 	left:43px;
 	text-shadow:2px 2px 5px dimgray;
-	font-family:Arial,helvetica,sans-serif;
+	font-family: 'Quicksand', sans-serif;
+	padding-bottom: 4px;
 }
 .texto{
 	color:snow;
 	position: relative;
 	left: 181px;
-	top:-173px;
+	top:-171px;
 	margin-bottom:13px;
 	width: 1100px;
-	font-size: 26px;
-	font-family: 'Caladea', serif;
-	border-color: white;
+	font-size: 20px;
+	border-color: purple;
 	border-style: solid;
-	border-width: 90%;
+	border-width: 2px;
 	height: 170px;
 	width:865px;
-	background-color: black
+	background-color: black;
+	border-radius:0% 30px 30px 0%;
 
 }
 .time{
@@ -90,9 +92,10 @@ h4{
 	top:10px;
 	left:140px;
 }
+
 body h2{
-	color:snow;
-	font-family: 'Merriweather', serif;
+	color:darkviolet;
+	font-family: 'Quicksand', sans-serif;;
 	font-size:44px;
 	padding-left:155px;
 	margin-top:200px;
@@ -105,12 +108,11 @@ body{
 	height:100%;
 }
 .container {
-
   	position: relative;
   	width: 50%;
-  	border-width: 90%;
+  	border-width: 2px;
   	border-style: solid;
-	border-color:white;
+	border-color:purple;
 	margin-top:39px;
 	width:180px;
 	height:170px; 
