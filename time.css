@@ -17,22 +17,25 @@ span{
 	top:100px;
 }
 .text{
-	width:400px;
+	width:28%;
 	position:relative;
-	right:-630px;
-	top:-350px;
-	margin-left:10%;
-	height:100px;	
+	right:-547px;
+	top:-45%;
+	padding-left:10%;
+	height:100px;
 }
 h4{
 	color:white;
 	text-align: center;
-	font-size:18px;
+	font-size:135%;
 	color:snow;
-	text-shadow: 2px 2px 2px black
+	text-shadow: 2px 2px 2px black;
+	position:relative;
+	left:25%;
+	top:-25%;
 }
 img{
-	box-shadow: -1px -1px 9px white;
+	box-shadow: -1px -1px 9px purple;
 }
 iframe{
 	position:relative;
