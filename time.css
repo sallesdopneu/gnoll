@@ -17,36 +17,31 @@ span{
 	top:100px;
 }
 .text{
-	width:28%;
+	width:400px;
 	position:relative;
-	right:-547px;
-	top:-45%;
+	right:-630px;
+	top:-370px;
 	padding-left:10%;
-	height:100px;
+	height:250px;
 }
 h4{
 	color:white;
 	text-align: center;
-	font-size:135%;
+	font-size:18px;
 	color:snow;
-	text-shadow: 2px 2px 2px black;
-	position:relative;
-	left:25%;
-	top:-25%;
+	text-shadow: 2px 2px 2px black
 }
 img{
 	box-shadow: -1px -1px 9px purple;
 }
 iframe{
 	position:relative;
-	top:130px;
-	left:-415px;
+	top:100px ;
 }
 h1{
 	color:snow;
 	position:relative;
-	top:-390px;
-	left:-390px;
+	text-align: center;
 	font-size:300%;
 	text-shadow: 2px 2px 2px black
 }
