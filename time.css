@@ -1,47 +1,51 @@
 .foto img {
 
-	width:35%;
-	height:70%; 
-
-
+	width:30%;
+	height:60%; 
 }
 html{
 	background-image:url(bcktime.jpg);
 	background-width:auto;
 	background-size:cover;
 	font-family:verdana, sans-serif;
+
 }
 span{
-	padding-left:200px;
+	margin-left:5em;
 	position: relative;
 	top:100px;
 }
 .text{
-	width:400px;
 	position:relative;
 	right:-630px;
-	top:-370px;
-	padding-left:10%;
-	height:250px;
+	top:-570px;
+	margin-left:7%;
+	height:260px;
 }
 h4{
 	color:white;
 	text-align: center;
-	font-size:18px;
+	font-size:1.55em;
 	color:snow;
-	text-shadow: 2px 2px 2px black
+	text-shadow: 2px 2px 2px black;
 }
 img{
 	box-shadow: -1px -1px 9px purple;
+	margin-top:5em;
+
 }
 iframe{
 	position:relative;
-	top:100px ;
+	top:200px ;
+	float: right;
+	margin-right:8em;
+	margin-top:0.5em;
+	box-shadow: -1px -1px 9px purple;
 }
 h1{
 	color:snow;
 	position:relative;
 	text-align: center;
-	font-size:300%;
+	font-size:5em;
 	text-shadow: 2px 2px 2px black
 }
