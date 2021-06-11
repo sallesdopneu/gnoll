@@ -1,5 +1,5 @@
 .cabess h1{
-	color:white;
+	color:purple;
 	font-size:100px;
 	text-align:center;
 	margin-bottom: 15px;
@@ -17,17 +17,21 @@ html{
 	text-align: center;
 	text-shadow:1px 3px 5px black;
 	height: 550px;
-	border-style:0px 0px 2px 0px solid purple;
+	border:0px #9400D3;
+	border-style: solid;
+	border-radius: 0% 0% 10px 10px;
+	margin-bottom: 1cm;
+	box-shadow:1px 1px px black;
 }
 .cabess img{
-	border-radius: 90%;
+	border-radius: 80%;
 	margin-bottom: 15px;
 	object-position: center;
-	box-shadow:3px 7px 5px #191414
+	
 
 }
 .cabess h3{
-	color:white;
+	color:purple;
 	text-align: center;
 	font-size:32px;
 	margin-top:10px
@@ -153,5 +157,46 @@ body{
   padding: 16px 32px;
 }
 
+.biografia h4{
+	color:#9400D3 ;
+	text-align: left;
+	margin-bottom:0px;
+	margin-top:15px;
+	margin-left:5em;
+	font-size:2em;
+}
+.biografia h5{
+	color: snow;
+	text-align:justify;
+	margin: 20px;
+	margin-bottom:10px;
+	margin-top:0px;
+	font-size: 1.30em;
+}
+.biografia{
+	border:solid 0.239em;
+	border-color: purple;
+	background-color:black;
+	font-family: 'Quicksand', sans-serif;
+	margin-left:13em;
+	border-radius:30px;
+	box-shadow: 3em purple;
+}
 
-
+.iframe{
+	border: solid 0.239em;
+	border-color: purple;
+	float: right;
+	position: relative;
+	bottom: 34.2em;
+	border-radius:30px;
+	margin-right:13em;
+	font-family: 'Quicksand', sans-serif;
+}
+.follow{
+	float: right;
+	position: relative;
+	left:23em;
+	top: -10em;
+	
+}
