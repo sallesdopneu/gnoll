@@ -18,16 +18,16 @@ span{
 .text{
 	position:relative;
 	right:-630px;
-	top:-570px;
-	margin-left:7%;
+	top:-37.6em;
 	height:260px;
 }
 h4{
 	color:white;
-	text-align: justify;
+	text-align: center;
 	font-size:1.55em;
 	color:snow;
 	text-shadow: 2px 2px 2px black;
+	padding-left:0.7em;
 }
 img{
 	box-shadow: -1px -1px 9px purple;
