@@ -41,6 +41,13 @@ html{
 .biografia h4 h5{
 	text-align:center;
 }
+.biografia h4{
+	position: relative;
+	top:-15px;
+	left:43px;
+	text-shadow:2px 2px 5px dimgray;
+	font-family: 'Quicksand', sans-serif;
+}
 .ovo h6{
 	color:black; 
 	position: relative;
@@ -65,13 +72,13 @@ h4{
 	color:snow;
 	position: relative;
 	left: 276px;
-	top:-239px;
+	top:-240px;
 	margin-bottom:13px;
 	font-size: 2.12em;
 	border-color: purple;
 	border-style: solid;
-	border-width: 2px;
-	height: 7em;
+	border-width: 0.05em;
+	height: 7.1em;
 	width:34em;
 	background-color: black;
 	border-radius:0% 30px 30px 0%;
@@ -117,7 +124,7 @@ body{
 	border-color:purple;
 	margin-top:190px;
 	width:17em;
-	height:14.9em; 
+	height:14.95em; 
 	top:3px;
 }
 
