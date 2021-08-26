@@ -11,14 +11,12 @@ html{
 
 }
 span{
-	margin-left:5em;
-	position: relative;
-	top:100px;
+	margin-left:5.7em;
 }
 .text{
 	position:relative;
-	right:-630px;
-	top:-37.6em;
+	right:-700px;
+	top:-35.02em;
 	height:260px;
 }
 h4{
@@ -27,7 +25,7 @@ h4{
 	font-size:1.55em;
 	color:snow;
 	text-shadow: 2px 2px 2px black;
-	padding-left:0.7em;
+	text-align: justify;
 }
 img{
 	box-shadow: -1px -1px 9px purple;
@@ -36,16 +34,17 @@ img{
 }
 iframe{
 	position:relative;
-	top:200px ;
+	top:120px ;
 	float: right;
-	margin-right:8em;
-	margin-top:0.5em;
+	margin-right:7em;
 	box-shadow: -1px -1px 9px purple;
 }
 h1{
 	color:snow;
 	position:relative;
-	text-align: center;
-	font-size:5em;
+	top:0.7em;
+	padding-left:1em;
+	text-align: left;
+	font-size:4em;
 	text-shadow: 2px 2px 2px black
 }
