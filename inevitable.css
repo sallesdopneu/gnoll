@@ -1,0 +1,47 @@
+.foto img {
+	width:30%;
+	height:60%; 
+}
+html{
+	background-color:snow;
+	background-width:auto;
+	background-size:cover;
+	font-family: 'Domine', serif;
+}
+span{
+	margin-left:5.7em;
+}
+.text{
+	position:relative;
+	right:-695px;
+	top:-35.02em;
+	height:260px;
+}
+h4{
+	text-align: center;
+	font-size:1.8em;
+    color: black
+	text-shadow: 2px 2px 2px black;
+	text-align:justify;
+}
+img{
+	box-shadow: -1px -1px 9px black;
+	margin-top:5em;
+
+}
+iframe{
+	position:relative;
+	top:120px ;
+	float: right;
+	margin-right:7em;
+	box-shadow: -1px -1px 9px black;
+}
+h1{
+	color:black;
+	position:relative;
+	top:0.7em;
+	padding-left:1em;
+	text-align: left;
+	font-size:4em;
+	text-shadow: 2px 2px 2px black
+}
