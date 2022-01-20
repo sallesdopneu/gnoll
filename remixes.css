@@ -10,6 +10,7 @@ html{
 	background-width:auto;
 	background-size:cover;
 	font-family:verdana, sans-serif;
+	overflow:hidden;
 }
 span{
 	margin-left:7em;
